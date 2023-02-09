@@ -1,0 +1,14 @@
+//Write an algorithm  for four products with GST?
+step1:start
+step2:Read the prices of 4 products p1,p2,p3,p4;
+step3: total = p1+p2+p3+p4;
+      if(total<500)
+      t=(total*10)/100
+      display t;
+      else  if(total<1000)
+      t=(total*20)/100
+       display t;  
+      else
+         t=(total*30)/100
+       display t;
+step4:stop

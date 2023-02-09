@@ -1,0 +1,31 @@
+//Write an algorithm given month number it will print month name?
+Begin/start
+step1:read month;
+step1.1:if(Month == 1)
+          display"Jaunary";
+        else if(Month == 2)
+          display"Febraury";
+        else if(Month == 3)
+           display"March";
+        else if(Month == 4)
+           display"April";
+        else if(Month == 5)
+           display"May";
+        else if(Month == 6)
+           display"June";
+        else if(Month == 7)
+           display"July";
+        else if(Month == 8)
+           display"August";
+        else if(Month == 9)
+           display"September";   
+        else if(Month == 10) 
+           display"October";    
+        else if(Month == 11) 
+           display"November";
+        else if(Month == 12) 
+           display"December";
+       else
+           display"Nothing";
+stop
+           

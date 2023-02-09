@@ -1,0 +1,14 @@
+//Write an algorithm which is divisible by 9 beteween the range 40 and 90?
+start
+step1:i=40, s=90,read the any no say n;
+       while(i<=n)
+       {
+
+       if(i%9==0)
+        {
+         s=s+i;
+         i=i+1;
+        }
+        display s;
+stop
+      

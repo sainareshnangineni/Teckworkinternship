@@ -1,0 +1,18 @@
+//Write an algorithm the number is divisible by 2 between the range 1 and 20?
+start
+step1:read A=1,B=20;
+
+step2while A<=B
+     {
+
+       if(A%2==0)
+      {
+       print A
+      }
+
+     else
+     {
+        print"nothing"
+     }
+     }
+stop

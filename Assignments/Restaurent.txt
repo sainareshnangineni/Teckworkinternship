@@ -1,0 +1,22 @@
+//Restaurant Management System
+
+step1: display "login and create account"
+       if(person login)
+          {
+          step:display "options"
+               Add food item
+               Remove food item
+               order tracks
+      if(option==1)
+        {
+         display "enter the food item name"
+         display read item
+         display item name
+         }
+     else if(option==2) 
+       {
+       display "enter the item to be removed" if(item is avilable)
+         {
+           display 
+
+                    

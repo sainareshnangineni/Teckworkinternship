@@ -1,0 +1,9 @@
+//write an algorithm for arithamatics operators using two variables?
+start
+step1:read the variables a,b;
+step2:print a+b;
+step3:print a-b;
+step4:print a/b;
+step5:print a%b;
+step6:print a*b;
+stop

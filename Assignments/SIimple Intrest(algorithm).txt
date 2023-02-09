@@ -1,0 +1,13 @@
+//Write an algorithm for finding the Simple Interest?
+
+Begin/start
+
+Step 1:input the values P, R and T
+
+Step 3:Calculate the simple interest and store it in A
+
+       (A = PRT/100)
+
+Step 4:print the value of A
+
+Stop

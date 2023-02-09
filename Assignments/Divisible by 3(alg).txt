@@ -1,0 +1,14 @@
+//write an algorithm for the given last two digits which is divisible by 3? 
+start
+step1:read n1,n2;
+step2:n1=n2%10;
+       
+      if(n1%3==0)
+      {
+       print n1 is divisible by 3
+       }
+       else
+       {
+        print n1 is not divisible by 3
+       }
+stop

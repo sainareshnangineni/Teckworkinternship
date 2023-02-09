@@ -1,0 +1,17 @@
+//Write an algorithm for  the number is even and odd numbers?
+start
+step1: read n,i=0,k=0
+step2: while(n!=0)
+       {
+         i=n%10
+             if(i%2==0):
+                {
+                     k=k*10+i
+               }
+          else  {
+                 c=c*10+i
+               }
+       }      
+step3:print k;
+step4:print c;
+stop
