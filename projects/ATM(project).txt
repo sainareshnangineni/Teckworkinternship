@@ -1,0 +1,73 @@
+//write an  the algorithm for ATM machine?
+start/Begin
+step1:Go to the ATM
+step2:print"Welcome to my bank";
+step3:Insert the card into machine 
+step4:print"cash withdraw";
+step5:print"cash deposit";
+step6:print"Select the Language",english,telugu,hindi;
+
+step7:Read the input like pin, choice, s;
+      
+        while (pin != 4445) 
+        {
+           print "type your pin";
+           display "pin";
+        if (pin != 4445) 
+           print"Please insert your valid password";
+        }
+step8: Choose “Withdraw” and enter Amount required
+      {
+       print"Hello! Welcome to our ATM Service"
+       print"1. Balance Checking";
+       print"2. Cash Withdrawal";
+       print"3. Cash Deposition";
+       print"4. Exit";
+       print"Please proceed with your choice";
+       print"choice";
+
+          switch(choice)
+        {
+         case1:
+               print" The account balance in Rupees";
+                break;
+         case 2:
+                 print"Insert the amount to be withdrawal";
+                 print"withdrawal";
+
+             if (withdrawal % 100 != 0)
+             {
+                 print " You're requested to insert the amount in multiples of 100";
+             }
+             else if (withdrawal >(amount - 500))
+             {
+                 print" You are having insufficient balance";
+              }
+             else
+              {
+                amount = amount - withdrawal;
+                print"You can take the cash";
+              }
+               break;
+         case 3:
+                 print "Insert the amount to be deposited";
+                 print"Deposition";
+
+                 amount = amount + deposition; 
+                 print"amount";
+                 break;
+         case 4:
+                print "Thakyou for visiting us";
+                break;
+             default:
+                print" You have made an invalid choice";
+         }
+               print"you have any other ATM transaction?(y/n)";
+              
+               if (transaction == 'n'|| transaction == 'N')
+                s = 1;
+              }
+                while (!s)
+                 print"Thank you  for your  choose The our ATM services";
+stop/End
+            
