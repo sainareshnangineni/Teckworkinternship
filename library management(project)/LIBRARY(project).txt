@@ -1,0 +1,83 @@
+start 
+ 
+step1:Read book_name,author_name,cost of book,no of pages;
+
+  
+step2:if(book_name,author_name,cost of book,no of pages are valid)
+
+    {  
+      print"book_name";
+      print"author_name";
+      print"cost of book";
+      print"no of pages";
+      }
+      else {
+          print"person is invalid"
+        }
+step3: fill the Details of the book
+step4: read i=0,j=0,count=0;
+  
+       while(j!=6)  
+       {  
+        print" Add Book details";
+        print"Display the list of books and its details"; 
+        print" Display the total no. of books in the library";
+        print"Exit";
+        print"Enter the number";
+  
+step5 :if book is avaliable
+       switch(j)  
+        {  
+           
+            case 1:  
+                print"You can add the details of the book
+                print"Enter the book name"; 
+                print"Enter the author name"; 
+                print"Enter the number of pages";
+                print"Enter the cost of the book";
+                
+                count = count + 1;  
+                i = i + 1;  
+                break;  
+  
+            case 2:  
+                
+                if (count==0)  
+                {  
+                    print"There are no books stored";  
+                }  
+                else  
+                {  
+                      
+                    print"You can view the list of books"; 
+                    print"The list of books are"; 
+                    for(i=0; i < count; i++)  
+                    {  
+                        print The name of the book is;
+                        print"book_name;
+                        print The name of the author name is;
+                        print"author _name";
+                        print The number of pages are;
+                        print "no of pages";
+                        print The cost of the book is;
+                        print "cost of book";
+                    }  
+                }  
+                break;  
+  
+            case 3:  
+                print"Total number of books in the library are";
+ 
+                break;  
+              
+            case 4:  
+                
+                exit(0);  
+                  
+            default:  
+                if any number other than 1, 2, 3, 4 is entered   
+                print"Invalid number entered"  
+        }
+         }
+       }
+stop
