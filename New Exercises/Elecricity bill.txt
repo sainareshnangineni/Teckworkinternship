@@ -1,0 +1,14 @@
+start
+step1:read variables units and bill
+step2:if(units<=100)
+      {
+        bill=(units*5)+75
+       else if(units>100 && units<=250)
+       {
+        bill=(100*5)+((units-100)*10)+75
+        else
+          {
+            bill=(100*5)+(150*10)+((units-250)*20)+75
+         }
+step3:   display bill
+stop

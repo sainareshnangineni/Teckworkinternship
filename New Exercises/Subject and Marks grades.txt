@@ -1,0 +1,25 @@
+//algorithm for marks grade
+start
+step1:read ph,ch,bi,math,com,S;
+step2: S = ph+ch+bi+math+com/5;
+step3:if(S>=90)
+       {
+          print"grade 'a'";
+       else if(S>=80)
+        {
+         print"grade 'b'";
+       else if(s>=70)
+         {
+           print"grade'c'";
+       else if(S>=60)
+          {
+            print"grade'd'";
+       else if(S>=40)
+          {
+            print"grade'e'";
+         else
+          {
+            print"grade'f";
+       }
+        }
+ stop

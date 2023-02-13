@@ -1,0 +1,24 @@
+start
+step1:read week numbers 1 upto 7
+step2:switch(week)
+        {
+          case1:
+           print"monday"
+          case2:
+           print"tuesday";
+          case3:
+           print"wednesday";
+          case4:
+            print"thursday";
+          case5:
+            print"friday";
+          case6:
+             print"saturday";
+          case7:
+            print"Sunday";
+           break;
+        
+         default:
+             print"nothing"
+} 
+stop

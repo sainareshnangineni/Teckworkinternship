@@ -1,0 +1,13 @@
+//Algorithm for lower case and upper case letter
+start
+step1:read s
+step2 if(s>='a' && s<='z')
+      {
+       print lower case letter;
+       elseif(ch<='A' && ch>='Z')
+       {
+           print upper case letter";
+       else{
+       print"nothing"
+       }
+stop

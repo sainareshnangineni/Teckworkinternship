@@ -1,0 +1,16 @@
+//Algorithm for a no is positive or negative or zero
+start
+step1:read A;
+step2:if(A>0)
+      {
+          print"A is +ve no";
+       else if(A=0)
+          {
+           print"A is Zero";
+          }
+        else if(A<0)
+     {
+       print"A is -ve no";
+      }
+     }
+sto

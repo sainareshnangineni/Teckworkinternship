@@ -1,0 +1,28 @@
+start
+step1:read sal,gross,hre,da;
+step2:if(sal<=1000)
+       {
+        print  da=sal*20/100;
+         print hra = sal*80/100;
+       print gross = sal+da+hra;
+       }
+step3:print"gross";
+step4:if(sal<=30000)
+      {
+        print da=sal*25/100;
+        print har=sal*90/100;
+        print gross=sal+da+hra
+       }
+       print"gross";
+         else if(sal>30000)
+        {
+           da=sal*30/100;
+           hra=sal*95/100;
+            gross=sal+da+hra
+       } 
+      print"gross"
+        else
+      print no salary;
+stop
+      
+   
