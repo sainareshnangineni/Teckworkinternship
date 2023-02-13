@@ -1,0 +1,37 @@
+//algorithm for Week in days names
+ start
+step1:read week no 1-7
+step2:if(no>=1 && no<=7)
+       {
+        if (week day==1)
+        { 
+     print"monday";
+        }
+       else if(week day ==2)
+        {
+         print"tuesday";
+         }
+        else if(week day==3)
+         {
+          print"wednsday";
+            }
+         else if(week day==4)
+          {
+          print"thursday";
+         }
+        else if(week day==5)
+         {
+       print"friday";
+         }
+        else if(week day==6){
+       print"sauterday";
+         }
+         else if(week day==7)
+        {
+         print"suday";
+        }
+       else{
+         print"nothing";
+        }
+        }
+ stop

@@ -1,0 +1,19 @@
+//QUadratic equation
+step1:read p,q,r
+step2:a=q2 4pr
+step3:if(a>0)
+      {
+      print s1= q+sqrt(a)/2*p;
+      print s2= q+sqrt(1)/2*p;   
+      else if(a=0)
+      {
+         print s1=-q/2*p;
+         print s2=q/2*p;
+        print s1,s2;
+      elseif(a<0)
+          {
+           print"invalid equation";
+           }
+       }
+stop
+       

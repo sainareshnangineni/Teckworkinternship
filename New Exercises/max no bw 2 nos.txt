@@ -1,0 +1,15 @@
+start
+step1:Read three numbers p,q,r;
+step2:max = p
+step3:if(q>max)
+       {
+       print max = q;
+       }
+        else if(r>max)
+       {
+        print max=r;
+        }
+        print max;
+stop
+
+       

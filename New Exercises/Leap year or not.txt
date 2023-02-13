@@ -1,0 +1,13 @@
+//Algorithm for Leap year or not
+start
+step1:Read year
+step2:if(year%4==0 && year%100!=0)
+      { 
+        if(year%400==0)
+        {
+        print"leap year";
+       else
+        print"not A leap year";
+          }
+        }
+stop

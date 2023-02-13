@@ -1,0 +1,9 @@
+//   given no is even or odd
+Start
+step1:read no n;
+step2:if(n%2==0){
+       print"even";
+      else
+        print"odd number";
+       }
+ stop

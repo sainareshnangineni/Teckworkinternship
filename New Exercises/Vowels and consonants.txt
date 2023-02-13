@@ -1,0 +1,22 @@
+//Algorithm for Vowels and consonents
+start
+step1:read vcount=0,ccount=0;
+step2:print str
+step3:print str = str.lower();
+step4: for i in range(o,len(str))
+        {
+
+           if str[i] in('a','e','i','o','u')
+          {
+           print vcount=vcount+1;
+           }
+        else if(str[i]>='a' and str[i]<='z'):
+         {
+          print ccount=ccount+1;
+          print"total no of vowels and consonants are:";
+          print vcount;
+          print ccount;
+         }
+         }
+stop
+       
