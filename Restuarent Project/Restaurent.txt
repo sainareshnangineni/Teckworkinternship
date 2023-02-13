@@ -1,0 +1,115 @@
+//Write an algorithm for Restaurant Management System
+start
+step1: print "welcome to Restaurent";
+step3: print choose options;
+step2: print "login and create account";
+step3: if(person login)
+        {
+          display "options"
+          Add  item;
+          Remove  item;
+          order tracks;
+          if(choice==1)
+           {
+              print "enter the food item name";
+              print item;
+           }
+            else if(choice==2) 
+              {
+               display "enter the item to be removed";
+               if(item is avilable)
+              {
+                print "item";
+           }
+                    
+step4:else if(user login)
+         {
+          print "enter the mail and password";
+            if(email and password is valid)
+              {
+               print home page;
+               options
+                   1)Home
+                   2)category
+                   3)Food items
+                   4)my account
+                   5)contact us
+                       
+          if(choice==1)
+            {
+              print" welcome";
+              print "portal page";
+             }
+             else if(choice==2)
+             {
+                 print "options";
+                  indian food;
+                  veg fridrice;
+                  Dham birayani;
+           if(option==1 or option==2 or option==3)
+              {
+              print" item";
+             if(item is available)
+                 {
+                 print " order"
+                 print "enter quantity";
+                 print read quantity
+              if(quantity is valid)
+                 {
+                 print "enter  current location";
+                 print read location;
+                print "payment options";
+                 print online payment;
+                  print cash on delivery
+              if(choice==1)
+               {
+                 print"select paytm";
+                print "proceed";
+                print enter the password;
+              if(payment is successful)
+               {
+                 print "order placed";
+               }
+               else
+               print"try again";
+               }
+               else if(choice==2) 
+                 {
+                   print"order placed successfully";
+                 }
+                 else{
+                      print"enter available quantity";
+                      }
+                else
+                    print"item is not available"
+              else if(choice==3)
+                 {
+                  print  "dashboard"
+                    your orders
+                    account information
+                    order track
+              if(choice==1)
+                 {
+                   print " orders information";
+                 }
+              else if(choice==2)
+                {
+                 print " details";
+                }
+              else if(choice==3)
+                {
+                 print "order tracking details"
+                 }
+
+               else if(choice==4)
+                 {
+                 print"user mobile number;
+                 
+                }
+             else if(choice==5)
+              {
+                print "Thank u for visiting us";
+               }
+                
+stop
+                    
